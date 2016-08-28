@@ -1,0 +1,136 @@
+\documentclass[25pt, portrait]{tikzposter}
+\usepackage{authblk}
+\usepackage{tikz}
+\usepackage{adjustbox}
+\usepackage{textcomp}
+\usepackage{multicol}
+\usetikzlibrary{shapes, arrows.meta}
+\usetheme{Default}
+
+\title{\parbox{.98\textwidth}{\centering Femtosecond-laser induced dynamics of CO on Ru(0001):
+New insights from a hot-electron, electronic friction model including surface motion\vspace{.85cm}}}
+\author[1,2]{\underline{Robert Scholz}}
+\author[1]{Gereon Flo\ss{}}
+\author[1]{Peter Saalfrank}
+\author[3]{Gernot F\"uchsel}
+\author[4]{Ivor Lon\v{c}ari\'c}
+\author[4,5,6]{J. I.~Juaristi}
+\affil[1]{Institut f\"ur Chemie, Universit\"at Potsdam, Karl-Liebknecht-Str. 24-25, D-14476 Potsdam, Germany}
+\affil[2]{Fritz-Haber-Institut der Max-Planck-Gesellschaft, Faradayweg 4-6, D-14195 Berlin, Germany}
+\affil[3]{Universiteit Leiden, Gorlaeus Laboratories, Einsteinweg 55, 2333 Leiden, The Netherlands}
+\affil[4]{Centro de F\'{\i}sica de Materiales CFM/MPC (CSIC-UPV/EHU), Paseo Manuel de Lardizabal 5, 20018 Donostia-San Sebasti\'an, Spain}
+\affil[5]{Departamento de F\'{\i}sica de Materiales,
+Facultad de Qu\'{\i}micas, 
+Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, Spain}
+\affil[6]{Donostia International Physics Center DIPC, P. Manuel de Lardizabal 4, 20018 San Sebasti\'an, Spain}
+
+\makeatletter
+\def\maketitle{\AB@maketitle}
+\makeatother
+\renewcommand{\Authfont}{\LARGE}
+\renewcommand{\Affilfont}{\normalsize}
+
+\settitle{ \centering \vbox{
+\@titlegraphic \\[\TP@titlegraphictotitledistance] \centering
+\color{titlefgcolor} {\bfseries \huge \sc \@title \par}
+\vspace*{1em}
+{ \@author \par}
+}}
+
+
+\begin{document}
+  \maketitle[width=0.99\textwidth]
+  \begin{columns}
+    \column{0.42}
+      \block{Introduction}{
+		  \innerblock{Motivation}{
+			 \begin{itemize}
+				\item research on small molecules adsorbed to metals is important for:
+				\begin{itemize}
+				  \item catalytic applications 
+				  \item fundamental understanding of bonding
+				\end{itemize}
+				\item femtosecond(fs)-lasers are a valuable tool for such research as they
+				\begin{itemize}
+				  \item allow for investigations on small timescales   
+				  \item open up new processes compared to heating (femtophotochemistry)
+				  \item may enable specific control over catalytic reactions (photocatalysis) 
+				\end{itemize}
+			 \end{itemize}
+		  }
+
+~
+
+		  \innerblock{How FL-irradiation affects metal surfaces}{
+			 \includegraphics[width=.90\colwidth]{abb/modifiedSurfScheme.png}		    
+		    \begin{minipage}[t]{.62\colwidth}
+				\begin{itemize}
+				  \item metals: 
+			    %can be described as 
+% 			    consist of an
+					 ion lattice plus quasi-free electron gas 
+				  \item visible light is absorbed by the electrons only				  
+				  \item   
+						  via \includegraphics[height=.7\baselineskip]{abb/one.png} \textbf{electron-phonon-coupling}, energy transfer to ion lattice (phonons = lattice vibrations)
+				  \item equilibration process completes after $\sim$1$\,$ps			
+				  \item Thus, with fs-lasers, two temperatures emerge:
+				  \begin{itemize}
+					 \item $T_\mathrm{el}$ - electron temperature
+					 \item $T_\mathrm{ph}$ - phonon temperature
+% 					 \item Two-Temperature Model (TTM)\cite{anisimov:74}
+				  \end{itemize}
+% 				  \item can be described with the Two-Temperature Model (TTM)
+				\end{itemize}
+		    \end{minipage}
+		    \begin{adjustbox}{valign=t}
+		      \begin{minipage}[t]{.28\colwidth}
+				  \begin{flushright}
+					 \includegraphics[width=.18\colwidth]{abb/elgas.png}$\,$\\[.5\baselineskip] 
+					 \includegraphics[width=.26\colwidth]{abb/TTM_1pulse.eps}
+				  \end{flushright}
+		      \end{minipage}
+		    \end{adjustbox}
+			 \begin{itemize}
+				\item can be simulated with Two-Temperature Model (TTM) \cite{anisimov:74}%consisting of two differential Equations 
+			 \end{itemize}
+		  }
+% 		  \includegraphics[width=.4\colwidth]{abb/TTM_1pulse.eps}
+      }
+		\block{Models and Methods}{
+		  
+		}
+  \end{columns}
+      %   \bibliography{/perm/scholz/phd/lit/biblio}
+  \block{}{
+    \begin{multicols}{2}
+      \begin{thebibliography}{X}
+
+	\bibitem{anisimov:74}
+	S. I. Anisimov, B. L. Kapeliovich, and T. L. Perel'man,
+	\emph{Sov. Phys.-JETP} \textbf{39}, 375 (1974).
+
+	\bibitem{nilsson:13}
+	 M. Dell'Angela, T. Anniyev, M. Beye et al., 
+	 \emph{Science} \textbf{339}, 1302 (2013).	 
+	
+      \end{thebibliography}  
+    \end{multicols}
+  }
+\end{document}
+
+
+% \makeatletter
+% \renewenvironment{tikzfigure}[1][]{
+%   \def \rememberparameter{#1}
+%   \vspace{10pt}
+%   \refstepcounter{figurecounter}
+%   \begin{center}
+%   }{
+%     \ifx\rememberparameter\@empty
+%     \else %nothing
+%     \\[10pt]
+%     {\large Fig.~\thefigurecounter: \rememberparameter}
+%     \fi
+%   \end{center}
+% }
+% \makeatother
