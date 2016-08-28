@@ -71,8 +71,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 					 ion lattice plus quasi-free electron gas 
 				  \item visible light is absorbed by the electrons only				  
 				  \item   
-						  via \textbf{electron-phonon-coupling}, energy transfer to ion lattice (phonons = lattice vibrations)
-% \includegraphics[height=\baselineskip]{abb/one.png}
+						  via \includegraphics[height=.8\baselineskip]{abb/one.png} \textbf{electron-phonon-coupling}, energy transfer to ion lattice (phonons = lattice vibrations)
 				  \item equilibration process completes after $\sim$1$\,$ps			
 				  \item Thus, with fs-lasers, two temperatures emerge:
 				  \begin{itemize}
@@ -92,12 +91,14 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		      \end{minipage}
 		    \end{adjustbox}
 			 \begin{itemize}
-				\item can be calculated with Two-Temperature Model (TTM) \cite{anisimov:74}:%consisting of two differential Equations 
+				\item can be simulated with Two-Temperature Model (TTM) \cite{anisimov:74}%consisting of two differential Equations 
 			 \end{itemize}
-
 		  }
 % 		  \includegraphics[width=.4\colwidth]{abb/TTM_1pulse.eps}
       }
+		\block{Models and Methods}{
+		  
+		}
   \end{columns}
       %   \bibliography{/perm/scholz/phd/lit/biblio}
   \block{}{
