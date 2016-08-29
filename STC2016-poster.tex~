@@ -71,11 +71,12 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 % 			    consist of an
 					 ion lattice plus quasi-free electron gas 
 				  \item visible light is absorbed only by the electrons %only
-						  % \vbox syntax?
+% 				  \item Fermi-Dirac schon hier?
+						  % \vbox syntax? (for the graphic)
 				  \item electrons transfer part of energy to ion lattice, via \includegraphics[height=.8\baselineskip]{abb/one.png}
 				  \hspace{-0.4cm} \textbf{\color{innerblocktitlebgcolor!80!orange}electron-phonon coupling}\newline (phonons = lattice vibrations)
 				  \begin{itemize}
-					 \item electrons couple to phonons as their movement causes ``shockwaves'' (Cherenkov-soundwaves)
+					 \item electrons couple to phonons as their fast movement causes ``shockwaves'' 
 					 \item equilibration process completes after $\sim$1$\,$ps			
 				  \end{itemize}
 				  \item Thus, with fs-lasers, two temperatures emerge:
