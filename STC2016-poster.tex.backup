@@ -60,8 +60,9 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  }
 
 ~
-
-		  \innerblock{How FL-irradiation affects metal surfaces}{
+		  \innerblock{How does fs-laser-irradiation affect metal surfaces?}{
+% 		  \innerblock{How fs-laser-irradiation affects metal surfaces}{
+% 		  \innerblock{What happens upon FL-irradiation of metal surfaces?}{
 			 \includegraphics[width=.90\colwidth]{abb/modifiedSurfScheme.png}		    
 		    \begin{minipage}[t]{.62\colwidth}
 				\begin{itemize}
@@ -69,10 +70,15 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 			    %can be described as 
 % 			    consist of an
 					 ion lattice plus quasi-free electron gas 
-				  \item visible light is absorbed by the electrons only				  
-				  \item   
-						  via \includegraphics[height=.8\baselineskip]{abb/one.png} \textbf{electron-phonon-coupling}, energy transfer to ion lattice (phonons = lattice vibrations)
-				  \item equilibration process completes after $\sim$1$\,$ps			
+				  \item visible light is absorbed only by the electrons %only
+% 				  \item Fermi-Dirac schon hier?
+						  % \vbox syntax? (for the graphic)
+				  \item electrons transfer part of energy to ion lattice, via \includegraphics[height=.8\baselineskip]{abb/one.png}
+				  \hspace{-0.4cm} \textbf{\color{innerblocktitlebgcolor!80!orange}electron-phonon coupling}\newline (phonons = lattice vibrations)
+				  \begin{itemize}
+					 \item electrons couple to phonons as their fast movement causes ``shockwaves'' in ion lattice
+					 \item equilibration process completes after $\sim$1$\,$ps			
+				  \end{itemize}
 				  \item Thus, with fs-lasers, two temperatures emerge:
 				  \begin{itemize}
 					 \item $T_\mathrm{el}$ - electron temperature
@@ -91,14 +97,19 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		      \end{minipage}
 		    \end{adjustbox}
 			 \begin{itemize}
-				\item can be simulated with Two-Temperature Model (TTM) \cite{anisimov:74}%consisting of two differential Equations 
+				\item time evolution can be simulated with a Two-Temperature Model %(TTM)
+				      \cite{anisimov:74}
+				%consisting of two differential Equations 
 			 \end{itemize}
 		  }
 % 		  \includegraphics[width=.4\colwidth]{abb/TTM_1pulse.eps}
       }
+      \column{0.58}{
 		\block{Models and Methods}{
+		  \innerblock{}
 		  
 		}
+      }
   \end{columns}
       %   \bibliography{/perm/scholz/phd/lit/biblio}
   \block{}{
