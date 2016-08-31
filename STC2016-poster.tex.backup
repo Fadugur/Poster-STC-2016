@@ -138,26 +138,43 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  \vspace{.5cm}
 		
 		  \innerblock{Two-Temperature Model (2TM) \cite{anisimov:74}}{
-			\begin{minipage}[t]{.45\colwidth}
+			\begin{adjustbox}{valign=t}
+			  \begin{minipage}[t]{.1\colwidth}
+				\includegraphics[width=.1\colwidth]{abb/Part1SurfScheme.png}
+% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
+		      \end{minipage}
+			\end{adjustbox}
+			\begin{minipage}[t][1.6cm][c]{.47\colwidth}
 			  \begin{itemize}
-				\item consists of two coupled differential equations 
-				\item calculates $T_\mathrm{el}$ and $T_\mathrm{ph}$ from laser parameters 
-				{\small
-				\begin{itemize}
-				  \item pulse duration
-				  \item effective absorbed fluence $F$ (energy/area)				
-				  \item penetration depth \newline(dependent on laser wavelength and material)
-				\end{itemize}				
-				}
-				\item and from material properties
-			  \end{itemize}	
-			\end{minipage}
+				\item consists of two coupled differential equations:%\\[-.9\baselineskip]
+% 				\vspace{.2\baselineskip}
+				\item describes interaction of the metal surface and laser
+			  \end{itemize}
+			\end{minipage}			
 			\begin{adjustbox}{valign=t}
 			  \begin{minipage}[t]{.5\colwidth}
 % 				\includegraphics[width=.15\colwidth]{abb/Part1SurfScheme.png}\\[.3\baselineskip]
-				\includegraphics[width=.4\colwidth]{abb/2TM_equs.png}
+				\hspace*{-2cm}\includegraphics[width=.38\colwidth]{abb/2TM_equs.png}
+				\vspace{-.6\baselineskip}
 		      \end{minipage}
 			\end{adjustbox}
+			\begin{itemize}
+			  \item calculates $T_\mathrm{el}$ and $T_\mathrm{ph}$ from laser parameters and material properties e.g.: 
+			  {\normalsize
+			  \begin{itemize}
+				\begin{minipage}[t]{.52\colwidth}
+				  \item laser wavelength $\lambda$ (affects penetretion depth into material)
+				  \item (effective) absorbed fluence $F$ (energy/area)
+				  \item pulse duration $\tau$ (all three appear in the ``source term'' $S(z, t)$)
+				\end{minipage}
+				\begin{minipage}[t]{.5\colwidth}
+				  \item electron and phonon heat capacities $C_\mathrm{el}$ and $C_\mathrm{ph}$
+				  \item electron heat conductivity $\kappa$ 			
+				  \item electron-phonon coupling constant $g$
+				\end{minipage}
+			  \end{itemize}				
+			  }
+			\end{itemize}	
 
 		  }
 		  \vspace{.5cm}
