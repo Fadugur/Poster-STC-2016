@@ -4,7 +4,7 @@
 \usepackage{adjustbox}
 \usepackage{textcomp}
 \usepackage{multicol}
-\usepackage{amssymb}
+% \usepackage{amssymb}
 \usetikzlibrary{shapes, arrows.meta}
 \usetheme{Default}
 
@@ -72,6 +72,8 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 % 			    consist of an
 					 ion lattice plus quasi-free electron gas 
 				  \item visible light is absorbed only by the electrons %only
+				  \item produced electron hole pairs thermalize quickly  
+				  $\Rightarrow$ ``hot'' Fermi-Dirac-distribution (after $\sim$10$\,$fs)
 % 				  \item Fermi-Dirac schon hier?
 						  % \vbox syntax? (for the graphic)
 				  \item electrons transfer part of energy to ion lattice, via \includegraphics[height=.8\baselineskip]{abb/one.png}
@@ -80,7 +82,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 					 \item electrons couple to phonons as their fast movement causes ``shockwaves'' in ion lattice
 					 \item equilibration process completes after $\sim$1$\,$ps			
 				  \end{itemize}
-				  \item Thus, with fs-lasers, two temperatures emerge:
+				  \item[$\Rightarrow$] with fs-lasers, two different temperatures:
 				  \begin{itemize}
 					 \item $T_\mathrm{el}$ - electron temperature
 					 \item $T_\mathrm{ph}$ - phonon temperature
@@ -92,8 +94,10 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		    \begin{adjustbox}{valign=t}
 		      \begin{minipage}[t]{.28\colwidth}
 				  \begin{flushright}
-					 \includegraphics[width=.18\colwidth]{abb/elgas.png}$\,$\\[.5\baselineskip] 
-					 \includegraphics[width=.26\colwidth]{abb/TTM_1pulse.eps}
+				      \includegraphics[width=.18\colwidth]{abb/elgas.png}$\,$\\[.6\baselineskip]
+				      \includegraphics[width=.205\colwidth]{abb/fermi.png}\\[.3\baselineskip]
+				      \includegraphics[width=.26\colwidth]{abb/TTM_1pulse.eps}
+
 				  \end{flushright}
 		      \end{minipage}
 		    \end{adjustbox}
