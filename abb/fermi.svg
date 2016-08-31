@@ -14,7 +14,10 @@
    inkscape:version="0.48.5 r10040"
    width="606"
    height="492"
-   sodipodi:docname="fermi.svg">
+   sodipodi:docname="fermi.svg"
+   inkscape:export-filename="/perm/scholz/phd/STC_2016/Poster-STC-2016/abb/fermi.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -23,6 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -120,9 +124,9 @@
      inkscape:window-height="931"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="250.25093"
-     inkscape:cy="77.360902"
+     inkscape:zoom="1"
+     inkscape:cx="373.29136"
+     inkscape:cy="165.71165"
      inkscape:window-x="-3"
      inkscape:window-y="57"
      inkscape:window-maximized="1"
