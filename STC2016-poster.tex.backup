@@ -4,6 +4,7 @@
 \usepackage{adjustbox}
 \usepackage{textcomp}
 \usepackage{multicol}
+\usepackage{amssymb}
 \usetikzlibrary{shapes, arrows.meta}
 \usetheme{Default}
 
@@ -58,8 +59,8 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 				\end{itemize}
 			 \end{itemize}
 		  }
+		  \vspace{.5cm}
 
-~
 		  \innerblock{How does fs-laser-irradiation affect metal surfaces?}{
 % 		  \innerblock{How fs-laser-irradiation affects metal surfaces}{
 % 		  \innerblock{What happens upon FL-irradiation of metal surfaces?}{
@@ -74,7 +75,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 % 				  \item Fermi-Dirac schon hier?
 						  % \vbox syntax? (for the graphic)
 				  \item electrons transfer part of energy to ion lattice, via \includegraphics[height=.8\baselineskip]{abb/one.png}
-				  \hspace{-0.4cm} \textbf{\color{innerblocktitlebgcolor!80!orange}electron-phonon coupling}\newline (phonons = lattice vibrations)
+				  \hspace{-0.4cm} \textbf{\color{innerblocktitlebgcolor!80!orange}electron-phonon coupling}\newline (phonons = lattice vibrations; quasi-particles)
 				  \begin{itemize}
 					 \item electrons couple to phonons as their fast movement causes ``shockwaves'' in ion lattice
 					 \item equilibration process completes after $\sim$1$\,$ps			
@@ -97,7 +98,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		      \end{minipage}
 		    \end{adjustbox}
 			 \begin{itemize}
-				\item time evolution can be simulated with a Two-Temperature Model %(TTM)
+				\item time evolution simulated with a Two-Temperature Model (2TM) %(TTM)
 				      \cite{anisimov:74}
 				%consisting of two differential Equations 
 			 \end{itemize}
@@ -106,9 +107,46 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
       }
       \column{0.58}{
 		\block{Models and Methods}{
-		  \innerblock{}{
+		  \innerblock{Six-dimensional Potential Energy Surface (6D PES)}{
+		    \begin{minipage}[t]{.66\colwidth}
+		      \begin{itemize}
+			\item Basis for dynamics: precomputed Potential Energy Surface (PES)
+		      \end{itemize}
+		      \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.20\colwidth}
+			  \includegraphics[width=.20\colwidth]{abb/6dimScheme.png}
+			\end{minipage}
+		      \end{adjustbox}
+		      \begin{minipage}[t]{.46\colwidth}
+			\begin{itemize}
+			  \item all 6 dimensions of the adsorbate
+			  \item analytical PES and gradients $\Rightarrow$ very fast % (once constructed)
+			  \item[$\Rightarrow$] number and length of trajectories can be large 
+			  \item downside: surface atoms frozen $\Rightarrow$ no phonons
+			\end{itemize}
+		      \end{minipage}
+		    \end{minipage}
+		    \begin{adjustbox}{valign=t}
+		      \begin{minipage}[t]{.35\colwidth}
+			\includegraphics[width=.26\colwidth]{abb/fig_1b.pdf}
+		      \end{minipage}
+		    \end{adjustbox}  
+		  }
+		  \vspace{.5cm}
+		
+		  \innerblock{Two-Temperature Model (2TM)}{
+		  
+		  }
+		  \vspace{.5cm}
 		    
-		  }		  
+		  \innerblock{Electronic Friction: LDFA and Langevin Dynamics}{
+		    
+		  }
+		  \vspace{.5cm}
+		  
+		  \innerblock{Inclusion of Phonons: GLO-model}{
+		  
+		  }
 		}
       }
   \end{columns}
