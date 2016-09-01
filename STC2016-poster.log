@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  1 SEP 2016 21:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  1 SEP 2016 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1050,12 +1050,17 @@ File: abb/Part2SurfScheme.png Graphic file (type png)
 Package pdftex.def Info: abb/Part2SurfScheme.png used on input line 222.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
-<abb/Langevin_eq.png, id=40, 823.28195pt x 97.60175pt>
+<abb/Langevin_eq.png, id=40, 888.8465pt x 162.42123pt>
 File: abb/Langevin_eq.png Graphic file (type png)
 
 <use abb/Langevin_eq.png>
 Package pdftex.def Info: abb/Langevin_eq.png used on input line 222.
-(pdftex.def)             Requested size: 654.52943pt x 77.59746pt.
+(pdftex.def)             Requested size: 850.88028pt x 155.48888pt.
+
+Overfull \hbox (65.43697pt too wide) in paragraph at lines 222--222
+[] 
+ []
+
 
 Overfull \hbox (4.39998pt too wide) in paragraph at lines 222--222
 [][] 
@@ -1086,7 +1091,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  18491 strings out of 493315
  395412 string characters out of 6145893
- 516195 words of memory out of 5000000
+ 515113 words of memory out of 5000000
  21469 multiletter control sequences out of 15000+600000
  63806 words of font info for 131 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1101,9 +1106,9 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
 mf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on STC2016-poster.pdf (1 page, 1841310 bytes).
+Output written on STC2016-poster.pdf (1 page, 1853813 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
