@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  1 SEP 2016 07:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  1 SEP 2016 08:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,7 +1026,7 @@ File: abb/Part1SurfScheme.png Graphic file (type png)
 
 <use abb/Part1SurfScheme.png>
 Package pdftex.def Info: abb/Part1SurfScheme.png used on input line 197.
-(pdftex.def)             Requested size: 130.91386pt x 86.124pt.
+(pdftex.def)             Requested size: 143.99727pt x 94.73138pt.
 
 <abb/2TM_equs.png, id=38, 778.57887pt x 172.1069pt>
 File: abb/2TM_equs.png Graphic file (type png)
@@ -1034,7 +1034,7 @@ File: abb/2TM_equs.png Graphic file (type png)
 Package pdftex.def Info: abb/2TM_equs.png used on input line 197.
 (pdftex.def)             Requested size: 497.44876pt x 109.96419pt.
 
-Overfull \hbox (184.31403pt too wide) in paragraph at lines 197--197
+Overfull \hbox (197.39743pt too wide) in paragraph at lines 197--197
 [] [] []
  []
 
@@ -1069,11 +1069,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18471 strings out of 493315
- 394992 string characters out of 6145893
- 511654 words of memory out of 5000000
- 21455 multiletter control sequences out of 15000+600000
- 60971 words of font info for 127 fonts, out of 8000000 for 9000
+ 18476 strings out of 493315
+ 395042 string characters out of 6145893
+ 512287 words of memory out of 5000000
+ 21457 multiletter control sequences out of 15000+600000
+ 63806 words of font info for 131 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  62i,16n,84p,817b,1404s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf
@@ -1086,7 +1086,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
 mf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on STC2016-poster.pdf (1 page, 1739373 bytes).
+Output written on STC2016-poster.pdf (1 page, 1741209 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream

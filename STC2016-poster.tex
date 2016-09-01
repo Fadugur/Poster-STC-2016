@@ -107,7 +107,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 			\end{minipage}
 		  \end{adjustbox}
 		  \begin{itemize}
-			\item can be simulated using a Two-Temperature Model (2TM) %(TTM)
+			\item can be simulated using a Two-Temperature Model (2TM)%(TTM)
 				  \cite{anisimov:74} (see right)
 				  %consisting of two differential Equations 
 		  \end{itemize}
@@ -116,7 +116,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
       }
       \column{0.58}{
 		\block{Models and Methods}{
-		  \innerblock{Six-dimensional Potential Energy Surface (6D PES)}{
+		  \innerblock{Six-dimensional Potential Energy Surface (6D PES)\cite{fuechsel:14}}{
 		    \begin{minipage}[t]{.66\colwidth}
 		      \begin{itemize}
 				\item Basis for dynamics: precomputed PES from DFT (rPBE + D2) 
@@ -144,10 +144,10 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  }
 		  \vspace{.5cm}
 		
-		  \innerblock{Two-Temperature Model (2TM) \cite{anisimov:74}}{
+		  \innerblock{Two-Temperature Model (2TM)\cite{anisimov:74}}{
 			\begin{adjustbox}{valign=t}
-			  \begin{minipage}[t]{.1\colwidth}
-				\includegraphics[width=.1\colwidth]{abb/Part1SurfScheme.png}
+			  \begin{minipage}[t]{.11\colwidth}
+				\includegraphics[width=.11\colwidth]{abb/Part1SurfScheme.png}
 % 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
 		      \end{minipage}
 			\end{adjustbox}
@@ -186,12 +186,12 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  }
 		  \vspace{.5cm}
 		    
-		  \innerblock{Electronic Friction: LDFA and Langevin Dynamics}{
+		  \innerblock{Electronic Friction: Langevin Dynamics\cite{headgordon:95} and Local~Density~Friction~Approximation~(LDFA)\cite{juaristi:08}}{
 		    
 		  }
 		  \vspace{.5cm}
 		  
-		  \innerblock{Inclusion of Phonons: GLO-model}{
+		  \innerblock{Inclusion of Phonons: Generalized Langevin Oscillator(GLO)-model\cite{adelman:76, tully:80, busnengo:05}}{
 		  
 		  }
 		}
@@ -200,13 +200,16 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
       %   \bibliography{/perm/scholz/phd/lit/biblio}
   \block{}{
     \begin{multicols}{2}
-      \begin{thebibliography}{X}
+      \begin{thebibliography}{X}\normalsize
+		
 		\bibitem{funk:00}
-		S. Funk, M. Bonn, D. N. Denzler, C. Hess et al., 
+% 		S. Funk, M. Bonn, D. N. Denzler, C. Hess et al., 
+		S. Funk, M. Bonn, D. N. Denzler, C. Hess, M. Wolf and G. Ertl, 
 		\emph{J. Chem. Phys.} \textbf{112}, 9888 (2000).
 		
 		\bibitem{nilsson:13}
-		  M. Dell'Angela, T. Anniyev, M. Beye et al., 
+% 		  M. Dell'Angela, T. Anniyev, M. Beye et al., 
+		  M. Dell'Angela, T. Anniyev, M. Beye, R. Coffee, A. F\"ohlisch et al., 
 		  \emph{Science} \textbf{339}, 1302 (2013).		  
 		
 		\bibitem{fuechsel:14}
@@ -216,9 +219,14 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		\bibitem{anisimov:74}
 		  S. I. Anisimov, B. L. Kapeliovich, and T. L. Perel'man,
 		  \emph{Sov. Phys.-JETP} \textbf{39}, 375 (1974).
-
+		  
+		\bibitem{headgordon:95}  
+		M. Head-Gordon and J. C. Tully, \emph{J. Chem. Phys.} \textbf{103}, 10137 (1995).
+		
 		\bibitem{juaristi:08}
-		J. I. Juaristi, M. Alducin, R. Díez Muiño, et al., \emph{Phys. Rev. Lett.} \textbf{100}, 116102 (2008).
+% 		J. I. Juaristi, M. Alducin, R. Díez Muiño, et al., 
+		J. I. Juaristi, M. Alducin, R. Díez Muiño, H. F. Busnengo and A. Salin, 
+		\emph{Phys. Rev. Lett.} \textbf{100}, 116102 (2008).
 		
 		\bibitem{adelman:76}
 		S. A. Adelman and J. D. Doll, \emph{J. Chem. Phys.} \textbf{64}, 2375 (1976).
@@ -229,7 +237,6 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		\bibitem{busnengo:05}
 		H. F. Busnengo, M. A. Di Césare, W. Dong, and A. Salin,
 		\emph{Phys. Rev. B} \textbf{72}, 125411 (2005).
- 
 		
       \end{thebibliography}  
     \end{multicols}
