@@ -145,22 +145,24 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  \vspace{.5cm}
 		
 		  \innerblock{Two-Temperature Model (2TM)\cite{anisimov:74}}{
-			\begin{minipage}[t]{.7\colwidth}
+			\begin{minipage}[t]{.68\colwidth}
 			  \begin{itemize}
 				\item describes interaction of metal with laser, using two differential equations:
-			  \end{itemize} 			
-			  \includegraphics[width=.5\colwidth]{abb/2TM_equs.png}
+			  \end{itemize}			  
+			  \begin{center}
+				\includegraphics[width=.5\colwidth]{abb/2TM_equs.png}
+			  \end{center}
 			\end{minipage}
 		    \begin{adjustbox}{valign=t}
-			  \begin{minipage}[t]{.22\colwidth}
-				\includegraphics[width=.22\colwidth]{abb/Part1SurfScheme.png}
+			  \begin{minipage}[t]{.25\colwidth}
+				\includegraphics[width=.25\colwidth]{abb/Part1SurfScheme.png}
 % 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
 		      \end{minipage}
 			\end{adjustbox}
 % 			\end{adjustbox}
-% 			\vspace{-.6\baselineskip}
+			\vspace{-1.2\baselineskip}
 			\begin{itemize}
-			  \item calculates $T_\mathrm{el}$ and $T_\mathrm{ph}$ as $f(z,t)$ from laser parameters and material properties: 
+			  \item[$\Rightarrow$] get $T_\mathrm{el}$ and $T_\mathrm{ph}$ as $f(z,t)$ from laser parameters and material properties: 
 			  {\normalsize
 			  \begin{itemize}
 				\begin{minipage}[t]{.52\colwidth}
