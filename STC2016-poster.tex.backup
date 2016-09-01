@@ -187,12 +187,23 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  \vspace{.5cm}
 		    
 		  \innerblock{Electronic Friction: Langevin Dynamics\cite{headgordon:95} and Local~Density~Friction~Approximation~(LDFA)\cite{juaristi:08}}{
-		    
+		    \begin{adjustbox}{valign=t}
+			  \begin{minipage}[t]{.11\colwidth}
+				\includegraphics[width=.11\colwidth]{abb/Part2SurfScheme.png}
+% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
+		      \end{minipage}
+			\end{adjustbox}
+
 		  }
 		  \vspace{.5cm}
 		  
 		  \innerblock{Inclusion of Phonons: Generalized Langevin Oscillator(GLO)-model\cite{adelman:76, tully:80, busnengo:05}}{
-		  
+		    \begin{adjustbox}{valign=t}
+			  \begin{minipage}[t]{.11\colwidth}
+				\includegraphics[width=.11\colwidth]{abb/Part3SurfScheme.png}
+% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
+		      \end{minipage}
+			\end{adjustbox}					  
 		  }
 		}
       }
@@ -203,11 +214,13 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
       \begin{thebibliography}{X}\normalsize
 		
 		\bibitem{funk:00}
-		S. Funk, M. Bonn, D. N. Denzler, C. Hess et al., 
+% 		S. Funk, M. Bonn, D. N. Denzler, C. Hess et al., 
+		S. Funk, M. Bonn, D. N. Denzler, C. Hess, M. Wolf and G. Ertl, 
 		\emph{J. Chem. Phys.} \textbf{112}, 9888 (2000).
 		
 		\bibitem{nilsson:13}
-		  M. Dell'Angela, T. Anniyev, M. Beye et al., 
+% 		  M. Dell'Angela, T. Anniyev, M. Beye et al., 
+		  M. Dell'Angela, T. Anniyev, M. Beye, R. Coffee, A. F\"ohlisch et al., 
 		  \emph{Science} \textbf{339}, 1302 (2013).		  
 		
 		\bibitem{fuechsel:14}
@@ -222,7 +235,9 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		M. Head-Gordon and J. C. Tully, \emph{J. Chem. Phys.} \textbf{103}, 10137 (1995).
 		
 		\bibitem{juaristi:08}
-		J. I. Juaristi, M. Alducin, R. Díez Muiño, et al., \emph{Phys. Rev. Lett.} \textbf{100}, 116102 (2008).
+% 		J. I. Juaristi, M. Alducin, R. Díez Muiño, et al., 
+		J. I. Juaristi, M. Alducin, R. Díez Muiño, H. F. Busnengo and A. Salin, 
+		\emph{Phys. Rev. Lett.} \textbf{100}, 116102 (2008).
 		
 		\bibitem{adelman:76}
 		S. A. Adelman and J. D. Doll, \emph{J. Chem. Phys.} \textbf{64}, 2375 (1976).
