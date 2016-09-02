@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 14:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1034,23 +1034,23 @@ File: abb/fermi.png Graphic file (type png)
 Package pdftex.def Info: abb/fermi.png used on input line 132.
 (pdftex.def)             Requested size: 193.60364pt x 156.00528pt.
 Package epstopdf Info: Source file: <abb/TTM_1pulse.eps>
-(epstopdf)                    date: 2016-08-29 12:35:47
-(epstopdf)                    size: 25106 bytes
+(epstopdf)                    date: 2016-09-02 14:12:11
+(epstopdf)                    size: 25033 bytes
 (epstopdf)             Output file: <abb/TTM_1pulse-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-29 12:35:47
-(epstopdf)                    size: 9595 bytes
+(epstopdf)                    date: 2016-09-02 14:12:21
+(epstopdf)                    size: 9845 bytes
 (epstopdf)             Command: <repstopdf --outfile=abb/TTM_1pulse-eps-convert
 ed-to.pdf abb/TTM_1pulse.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<abb/TTM_1pulse-eps-converted-to.pdf, id=35, 432.61626pt x 389.455pt>
+<abb/TTM_1pulse-eps-converted-to.pdf, id=35, 386.44376pt x 389.455pt>
 File: abb/TTM_1pulse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb/TTM_1pulse-eps-converted-to.pdf>
 Package pdftex.def Info: abb/TTM_1pulse-eps-converted-to.pdf used on input line
  132.
-(pdftex.def)             Requested size: 245.5387pt x 221.04083pt.
+(pdftex.def)             Requested size: 245.5387pt x 247.44974pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
 [][]
@@ -1153,7 +1153,12 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
  []
 
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 278--278
+Overfull \hbox (4.4pt too wide) in paragraph at lines 282--282
+[][] 
+ []
+
+
+Overfull \hbox (4.4pt too wide) in paragraph at lines 282--282
 [][] 
  []
 
@@ -1175,7 +1180,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  19090 strings out of 493315
  402035 string characters out of 6145893
- 537794 words of memory out of 5000000
+ 539795 words of memory out of 5000000
  22049 multiletter control sequences out of 15000+600000
  62773 words of font info for 126 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1190,7 +1195,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
 mf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on STC2016-poster.pdf (1 page, 1872489 bytes).
+Output written on STC2016-poster.pdf (1 page, 1872900 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
