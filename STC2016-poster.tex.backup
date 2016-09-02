@@ -204,8 +204,13 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 			  \item describes movement of CO on the PES and interaction with electron-hole pairs (friction and excitation)
 			  \item Local Density Friction Approx. (LDFA): most simple model to calculate friction coefficients $\eta_{\mathrm{el},k}$
 			  \begin{itemize}
-			    \item ``Local Density'' $\Rightarrow$ homogenous free electron gas
+% 			    \item ``Local Density'' $\Rightarrow$ homogenous free electron gas (FEG)
+				\item Atom $k$ embedded in free electron gas with density of bare surface at current position $\underline{r}_k$
 			  \end{itemize}
+				\item Random forces $\underline{R}_{\mathrm{el},k}$: gaussian white noise,  dependent on both $\eta_{\mathrm{el},k}$ (from LDFA) and $T_\mathrm{el}$ (from 2TM)
+				\begin{itemize}
+				  \item justified by the 2. fluctuation dissipation theorem  \cite{kubo:66}, which relates friction and thermal movement 
+				\end{itemize}  
 			\end{itemize}
 
 % 			\begin{adjustbox}{valign=t}
@@ -219,11 +224,20 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  
 		  \innerblock{Inclusion of Phonons: Generalized Langevin Oscillator(GLO)-model\cite{adelman:76, tully:80, busnengo:05}}{
 		    \begin{adjustbox}{valign=t}
-			  \begin{minipage}[t]{.25\colwidth}
+			  \begin{minipage}[t]{.24\colwidth}
 				\includegraphics[width=.25\colwidth]{abb/Part3SurfScheme.png}
 % 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
 		      \end{minipage}
-			\end{adjustbox}					  
+			\end{adjustbox}
+			\begin{minipage}[t]{.7\colwidth}
+			  \begin{itemize}
+				\item models influence of phonons in an effective way (augments frozen surface)
+				\item entire surface understood as 3D oscillator (coordinates $\underline{r}_s$, mass $m_s = m_\mathrm{Ru}$)
+				\item coupling to the molecule via space-rigid shift of PES V
+			  \end{itemize}
+% 			  \vspace*{-.1\baselineskip}			  
+% 			  \includegraphics[width=.65\colwidth]{abb/Langevin_eq.png}
+			\end{minipage}
 		  }
 		}
       }
@@ -268,6 +282,9 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		\bibitem{busnengo:05}
 		H. F. Busnengo, M. A. Di Césare, W. Dong, and A. Salin,
 		\emph{Phys. Rev. B} \textbf{72}, 125411 (2005).
+		
+		\bibitem{kubo:66}
+		R. Kubo, \emph{Rep. Prog. Phys.} \textbf{29}, 255 (1966).
 		
       \end{thebibliography}  
     \end{multicols}

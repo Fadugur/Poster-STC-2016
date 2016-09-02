@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  1 SEP 2016 22:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,49 +797,107 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box97
 \multicol@sort@counter=\count133
 )
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen285
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen286
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count134
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count135
+\leftroot@=\count136
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count137
+\DOTSCASE@=\count138
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box98
+\strutbox@=\box99
+\big@size=\dimen287
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count139
+\c@MaxMatrixCols=\count140
+\dotsspace@=\muskip10
+\c@parentequation=\count141
+\dspbrk@lvl=\count142
+\tag@help=\toks30
+\row@=\count143
+\column@=\count144
+\maxfields@=\count145
+\andhelp@=\toks31
+\eqnshift@=\dimen288
+\alignsep@=\dimen289
+\tagshift@=\dimen290
+\tagwidth@=\dimen291
+\totwidth@=\dimen292
+\lineht@=\dimen293
+\@envbody=\toks32
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
 (/user/scholz/texmf/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen285
-\pgfarrowlength=\dimen286
-\pgfarrowwidth=\dimen287
-\pgfarrowlinewidth=\dimen288
+\pgfarrowinset=\dimen294
+\pgfarrowlength=\dimen295
+\pgfarrowwidth=\dimen296
+\pgfarrowlinewidth=\dimen297
 )
 (./STC2016-poster.aux)
 \openout1 = `STC2016-poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
  (/usr/share/texmf/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
 
 ABD: EveryShipout initializing macros
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen289
-\scratchbox=\box98
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen290
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count146
+\scratchdimen=\dimen298
+\scratchbox=\box100
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen299
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks35
 ) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -922,25 +980,41 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
 
-Overfull \hbox (32.95335pt too wide) in paragraph at lines 43--43
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <51.6> not available
+(Font)              size <24.88> substituted on input line 44.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.83> not available
+(Font)              size <24.88> substituted on input line 44.
+
+
+Overfull \hbox (32.95335pt too wide) in paragraph at lines 44--44
  [][] 
  []
 
 
-Overfull \hbox (32.95335pt too wide) in paragraph at lines 43--43
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <43.00> not available
+(Font)              size <24.88> substituted on input line 44.
+
+
+Overfull \hbox (32.95335pt too wide) in paragraph at lines 44--44
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 116.
 
-LaTeX Font Info:    No file TS1aer.fd. on input line 116.
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.86> not available
+(Font)              size <24.88> substituted on input line 117.
+
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 117.
+
+LaTeX Font Info:    No file TS1aer.fd. on input line 117.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 116.
+(Font)              for symbol `textbullet' on input line 117.
 
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 116--116
+Overfull \hbox (4.4pt too wide) in paragraph at lines 117--117
 [][] 
  []
 
@@ -948,25 +1022,25 @@ Overfull \hbox (4.4pt too wide) in paragraph at lines 116--116
 File: abb/modifiedSurfScheme.png Graphic file (type png)
 
 <use abb/modifiedSurfScheme.png>
-Package pdftex.def Info: abb/modifiedSurfScheme.png used on input line 116.
+Package pdftex.def Info: abb/modifiedSurfScheme.png used on input line 117.
 (pdftex.def)             Requested size: 849.95384pt x 219.8689pt.
  <abb/one.png, id=31, 9.636pt x 9.636pt>
 File: abb/one.png Graphic file (type png)
 
 <use abb/one.png>
-Package pdftex.def Info: abb/one.png used on input line 116.
+Package pdftex.def Info: abb/one.png used on input line 117.
 (pdftex.def)             Requested size: 29.60367pt x 29.60011pt.
  <abb/elgas.png, id=32, 52.2753pt x 38.0622pt>
 File: abb/elgas.png Graphic file (type png)
 
 <use abb/elgas.png>
-Package pdftex.def Info: abb/elgas.png used on input line 116.
+Package pdftex.def Info: abb/elgas.png used on input line 117.
 (pdftex.def)             Requested size: 169.985pt x 123.79005pt.
  <abb/fermi.png, id=33, 467.44237pt x 376.67123pt>
 File: abb/fermi.png Graphic file (type png)
 
 <use abb/fermi.png>
-Package pdftex.def Info: abb/fermi.png used on input line 116.
+Package pdftex.def Info: abb/fermi.png used on input line 117.
 (pdftex.def)             Requested size: 193.60364pt x 156.00528pt.
 Package epstopdf Info: Source file: <abb/TTM_1pulse.eps>
 (epstopdf)                    date: 2016-08-29 12:35:47
@@ -976,7 +1050,7 @@ Package epstopdf Info: Source file: <abb/TTM_1pulse.eps>
 (epstopdf)                    size: 9595 bytes
 (epstopdf)             Command: <repstopdf --outfile=abb/TTM_1pulse-eps-convert
 ed-to.pdf abb/TTM_1pulse.eps>
-(epstopdf)             \includegraphics on input line 116.
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
 <abb/TTM_1pulse-eps-converted-to.pdf, id=34, 432.61626pt x 389.455pt>
@@ -984,62 +1058,62 @@ File: abb/TTM_1pulse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb/TTM_1pulse-eps-converted-to.pdf>
 Package pdftex.def Info: abb/TTM_1pulse-eps-converted-to.pdf used on input line
- 116.
+ 117.
 (pdftex.def)             Requested size: 245.5387pt x 221.04083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 [][]
  []
 
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 116--116
+Overfull \hbox (4.4pt too wide) in paragraph at lines 117--117
 [][] 
  []
 
 <abb/6dimScheme.png, id=35, 284.6097pt x 207.12433pt>
 File: abb/6dimScheme.png Graphic file (type png)
  <use abb/6dimScheme.png>
-Package pdftex.def Info: abb/6dimScheme.png used on input line 230.
+Package pdftex.def Info: abb/6dimScheme.png used on input line 253.
 (pdftex.def)             Requested size: 287.99454pt x 209.59843pt.
 
-Overfull \hbox (39.27016pt too wide) in paragraph at lines 230--230
+Overfull \hbox (39.27016pt too wide) in paragraph at lines 253--253
 [][] 
  []
 
 <abb/fig_1b.pdf, id=36, 244.61388pt x 170.6375pt>
 File: abb/fig_1b.pdf Graphic file (type pdf)
  <use abb/fig_1b.pdf>
-Package pdftex.def Info: abb/fig_1b.pdf used on input line 230.
+Package pdftex.def Info: abb/fig_1b.pdf used on input line 253.
 (pdftex.def)             Requested size: 366.53488pt x 255.70564pt.
 
-Overfull \hbox (99.89127pt too wide) in paragraph at lines 230--230
+Overfull \hbox (99.89127pt too wide) in paragraph at lines 253--253
 [][] [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 253--253
 [][] 
  []
 
 <abb/2TM_equs.png, id=37, 778.57887pt x 172.1069pt>
 File: abb/2TM_equs.png Graphic file (type png)
  <use abb/2TM_equs.png>
-Package pdftex.def Info: abb/2TM_equs.png used on input line 230.
+Package pdftex.def Info: abb/2TM_equs.png used on input line 253.
 (pdftex.def)             Requested size: 654.52943pt x 144.68697pt.
 
 <abb/Part1SurfScheme.png, id=38, 90.8193pt x 59.7432pt>
 File: abb/Part1SurfScheme.png Graphic file (type png)
 
 <use abb/Part1SurfScheme.png>
-Package pdftex.def Info: abb/Part1SurfScheme.png used on input line 230.
+Package pdftex.def Info: abb/Part1SurfScheme.png used on input line 253.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
-Overfull \hbox (158.99358pt too wide) in paragraph at lines 230--230
+Overfull \hbox (158.99358pt too wide) in paragraph at lines 253--253
 [][] [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 253--253
 [][] 
  []
 
@@ -1047,22 +1121,22 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
 File: abb/Part2SurfScheme.png Graphic file (type png)
 
 <use abb/Part2SurfScheme.png>
-Package pdftex.def Info: abb/Part2SurfScheme.png used on input line 230.
+Package pdftex.def Info: abb/Part2SurfScheme.png used on input line 253.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
 <abb/Langevin_eq.png, id=40, 888.8465pt x 162.42123pt>
 File: abb/Langevin_eq.png Graphic file (type png)
 
 <use abb/Langevin_eq.png>
-Package pdftex.def Info: abb/Langevin_eq.png used on input line 230.
+Package pdftex.def Info: abb/Langevin_eq.png used on input line 253.
 (pdftex.def)             Requested size: 850.88028pt x 155.48888pt.
 
-Overfull \hbox (65.43697pt too wide) in paragraph at lines 230--230
+Overfull \hbox (65.43697pt too wide) in paragraph at lines 253--253
 [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 253--253
 [][] 
  []
 
@@ -1070,10 +1144,20 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
 File: abb/Part3SurfScheme.png Graphic file (type png)
 
 <use abb/Part3SurfScheme.png>
-Package pdftex.def Info: abb/Part3SurfScheme.png used on input line 230.
+Package pdftex.def Info: abb/Part3SurfScheme.png used on input line 253.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
+Overfull \hbox (13.08339pt too wide) in paragraph at lines 253--253
+[][] 
+ []
+
+
+Overfull \hbox (8.24757pt too wide) in paragraph at lines 253--253
+[] [] 
+ []
+
+
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 253--253
 [][] 
  []
 
@@ -1085,17 +1169,21 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 230--230
 g> <./abb/Part1SurfScheme.png> <./abb/Part2SurfScheme.png> <./abb/Langevin_eq.p
 ng> <./abb/Part3SurfScheme.png>] (./STC2016-poster.aux)
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 26.72pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18491 strings out of 493315
- 395412 string characters out of 6145893
- 517399 words of memory out of 5000000
- 21469 multiletter control sequences out of 15000+600000
- 63806 words of font info for 131 fonts, out of 8000000 for 9000
+ 19086 strings out of 493315
+ 401997 string characters out of 6145893
+ 533774 words of memory out of 5000000
+ 22048 multiletter control sequences out of 15000+600000
+ 62910 words of font info for 127 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 62i,16n,84p,817b,1404s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,84p,817b,1426s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public
 /amsfonts/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi1
@@ -1106,7 +1194,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
 mf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on STC2016-poster.pdf (1 page, 1855668 bytes).
+Output written on STC2016-poster.pdf (1 page, 1858179 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
