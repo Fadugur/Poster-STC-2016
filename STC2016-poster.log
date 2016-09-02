@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 17:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -989,23 +989,23 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.83> not available
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.86> not available
-(Font)              size <24.88> substituted on input line 132.
+(Font)              size <24.88> substituted on input line 133.
 
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 132.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 133.
 
-LaTeX Font Info:    No file TS1aer.fd. on input line 132.
+LaTeX Font Info:    No file TS1aer.fd. on input line 133.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 132.
+(Font)              for symbol `textbullet' on input line 133.
 
 <abb/CO_CO2.png, id=29, 63.3567pt x 121.4136pt>
 File: abb/CO_CO2.png Graphic file (type png)
  <use abb/CO_CO2.png>
-Package pdftex.def Info: abb/CO_CO2.png used on input line 132.
+Package pdftex.def Info: abb/CO_CO2.png used on input line 133.
 (pdftex.def)             Requested size: 236.09988pt x 452.54132pt.
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 132--132
+Overfull \hbox (4.4pt too wide) in paragraph at lines 133--133
 [][] 
  []
 
@@ -1013,25 +1013,25 @@ Overfull \hbox (4.4pt too wide) in paragraph at lines 132--132
 File: abb/modifiedSurfScheme.png Graphic file (type png)
 
 <use abb/modifiedSurfScheme.png>
-Package pdftex.def Info: abb/modifiedSurfScheme.png used on input line 132.
+Package pdftex.def Info: abb/modifiedSurfScheme.png used on input line 133.
 (pdftex.def)             Requested size: 849.95384pt x 219.8689pt.
  <abb/one.png, id=32, 9.636pt x 9.636pt>
 File: abb/one.png Graphic file (type png)
 
 <use abb/one.png>
-Package pdftex.def Info: abb/one.png used on input line 132.
+Package pdftex.def Info: abb/one.png used on input line 133.
 (pdftex.def)             Requested size: 29.60367pt x 29.60011pt.
  <abb/elgas.png, id=33, 52.2753pt x 38.0622pt>
 File: abb/elgas.png Graphic file (type png)
 
 <use abb/elgas.png>
-Package pdftex.def Info: abb/elgas.png used on input line 132.
+Package pdftex.def Info: abb/elgas.png used on input line 133.
 (pdftex.def)             Requested size: 169.985pt x 123.79005pt.
  <abb/fermi.png, id=34, 467.44237pt x 376.67123pt>
 File: abb/fermi.png Graphic file (type png)
 
 <use abb/fermi.png>
-Package pdftex.def Info: abb/fermi.png used on input line 132.
+Package pdftex.def Info: abb/fermi.png used on input line 133.
 (pdftex.def)             Requested size: 193.60364pt x 156.00528pt.
 Package epstopdf Info: Source file: <abb/TTM_1pulse.eps>
 (epstopdf)                    date: 2016-09-02 14:12:11
@@ -1041,7 +1041,7 @@ Package epstopdf Info: Source file: <abb/TTM_1pulse.eps>
 (epstopdf)                    size: 9845 bytes
 (epstopdf)             Command: <repstopdf --outfile=abb/TTM_1pulse-eps-convert
 ed-to.pdf abb/TTM_1pulse.eps>
-(epstopdf)             \includegraphics on input line 132.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
 <abb/TTM_1pulse-eps-converted-to.pdf, id=35, 386.44376pt x 389.455pt>
@@ -1049,62 +1049,62 @@ File: abb/TTM_1pulse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb/TTM_1pulse-eps-converted-to.pdf>
 Package pdftex.def Info: abb/TTM_1pulse-eps-converted-to.pdf used on input line
- 132.
+ 133.
 (pdftex.def)             Requested size: 245.5387pt x 247.44974pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 [][]
  []
 
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 132--132
+Overfull \hbox (4.4pt too wide) in paragraph at lines 133--133
 [][] 
  []
 
 <abb/6dimScheme.png, id=36, 284.6097pt x 207.12433pt>
 File: abb/6dimScheme.png Graphic file (type png)
  <use abb/6dimScheme.png>
-Package pdftex.def Info: abb/6dimScheme.png used on input line 268.
+Package pdftex.def Info: abb/6dimScheme.png used on input line 269.
 (pdftex.def)             Requested size: 287.99454pt x 209.59843pt.
 
-Overfull \hbox (39.27016pt too wide) in paragraph at lines 268--268
+Overfull \hbox (39.27016pt too wide) in paragraph at lines 269--269
 [][] 
  []
 
 <abb/fig_1b.pdf, id=37, 244.61388pt x 170.6375pt>
 File: abb/fig_1b.pdf Graphic file (type pdf)
  <use abb/fig_1b.pdf>
-Package pdftex.def Info: abb/fig_1b.pdf used on input line 268.
+Package pdftex.def Info: abb/fig_1b.pdf used on input line 269.
 (pdftex.def)             Requested size: 366.53488pt x 255.70564pt.
 
-Overfull \hbox (99.89127pt too wide) in paragraph at lines 268--268
+Overfull \hbox (99.89127pt too wide) in paragraph at lines 269--269
 [][] [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 269--269
 [][] 
  []
 
 <abb/2TM_equs.png, id=38, 778.57887pt x 172.1069pt>
 File: abb/2TM_equs.png Graphic file (type png)
  <use abb/2TM_equs.png>
-Package pdftex.def Info: abb/2TM_equs.png used on input line 268.
+Package pdftex.def Info: abb/2TM_equs.png used on input line 269.
 (pdftex.def)             Requested size: 654.52943pt x 144.68697pt.
 
 <abb/Part1SurfScheme.png, id=39, 90.8193pt x 59.7432pt>
 File: abb/Part1SurfScheme.png Graphic file (type png)
 
 <use abb/Part1SurfScheme.png>
-Package pdftex.def Info: abb/Part1SurfScheme.png used on input line 268.
+Package pdftex.def Info: abb/Part1SurfScheme.png used on input line 269.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
-Overfull \hbox (158.99358pt too wide) in paragraph at lines 268--268
+Overfull \hbox (158.99358pt too wide) in paragraph at lines 269--269
 [][] [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 269--269
 [][] 
  []
 
@@ -1112,22 +1112,22 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
 File: abb/Part2SurfScheme.png Graphic file (type png)
 
 <use abb/Part2SurfScheme.png>
-Package pdftex.def Info: abb/Part2SurfScheme.png used on input line 268.
+Package pdftex.def Info: abb/Part2SurfScheme.png used on input line 269.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
 <abb/Langevin_eq.png, id=41, 888.8465pt x 162.42123pt>
 File: abb/Langevin_eq.png Graphic file (type png)
 
 <use abb/Langevin_eq.png>
-Package pdftex.def Info: abb/Langevin_eq.png used on input line 268.
+Package pdftex.def Info: abb/Langevin_eq.png used on input line 269.
 (pdftex.def)             Requested size: 850.88028pt x 155.48888pt.
 
-Overfull \hbox (65.43697pt too wide) in paragraph at lines 268--268
+Overfull \hbox (65.43697pt too wide) in paragraph at lines 269--269
 [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 269--269
 [][] 
  []
 
@@ -1135,30 +1135,30 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
 File: abb/Part3SurfScheme.png Graphic file (type png)
 
 <use abb/Part3SurfScheme.png>
-Package pdftex.def Info: abb/Part3SurfScheme.png used on input line 268.
+Package pdftex.def Info: abb/Part3SurfScheme.png used on input line 269.
 (pdftex.def)             Requested size: 327.26471pt x 215.29768pt.
 
-Overfull \hbox (13.08339pt too wide) in paragraph at lines 268--268
+Overfull \hbox (13.08339pt too wide) in paragraph at lines 269--269
 [][] 
  []
 
 
-Overfull \hbox (8.24757pt too wide) in paragraph at lines 268--268
+Overfull \hbox (8.24757pt too wide) in paragraph at lines 269--269
 [] [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 269--269
 [][] 
  []
 
 <abb/fig_8.png, id=43, 149.16528pt x 104.93604pt>
 File: abb/fig_8.png Graphic file (type png)
  <use abb/fig_8.png>
-Package pdftex.def Info: abb/fig_8.png used on input line 333.
+Package pdftex.def Info: abb/fig_8.png used on input line 334.
 (pdftex.def)             Requested size: 422.36693pt x 297.14612pt.
 
-Underfull \hbox (badness 4608) in paragraph at lines 333--333
+Underfull \hbox (badness 4608) in paragraph at lines 334--334
 []\T1/aer/m/n/29.86 desorption mainly
  []
 
@@ -1170,13 +1170,13 @@ Package epstopdf Info: Source file: <abb/fig_9.eps>
 (epstopdf)                    size: 11350 bytes
 (epstopdf)             Command: <repstopdf --outfile=abb/fig_9-eps-converted-to
 .pdf abb/fig_9.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 <abb/fig_9-eps-converted-to.pdf, id=44, 473.77pt x 354.32375pt>
 File: abb/fig_9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb/fig_9-eps-converted-to.pdf>
-Package pdftex.def Info: abb/fig_9-eps-converted-to.pdf used on input line 333.
+Package pdftex.def Info: abb/fig_9-eps-converted-to.pdf used on input line 334.
 
 (pdftex.def)             Requested size: 392.19128pt x 293.32089pt.
 Package epstopdf Info: Source file: <abb/fig_11a.eps>
@@ -1187,7 +1187,7 @@ Package epstopdf Info: Source file: <abb/fig_11a.eps>
 (epstopdf)                    size: 10829 bytes
 (epstopdf)             Command: <repstopdf --outfile=abb/fig_11a-eps-converted-
 to.pdf abb/fig_11a.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
 
 <abb/fig_11a-eps-converted-to.pdf, id=45, 368.37625pt x 351.3125pt>
@@ -1195,10 +1195,10 @@ File: abb/fig_11a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use abb/fig_11a-eps-converted-to.pdf>
 Package pdftex.def Info: abb/fig_11a-eps-converted-to.pdf used on input line 33
-3.
+4.
 (pdftex.def)             Requested size: 301.68738pt x 287.70822pt.
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 333--333
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 334--334
 [][] 
  []
 
@@ -1206,45 +1206,45 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 333--333
 File: abb/Trajektorie.png Graphic file (type png)
 
 <use abb/Trajektorie.png>
-Package pdftex.def Info: abb/Trajektorie.png used on input line 333.
+Package pdftex.def Info: abb/Trajektorie.png used on input line 334.
 (pdftex.def)             Requested size: 437.44324pt x 306.92818pt.
 
-Overfull \hbox (15.07631pt too wide) in paragraph at lines 333--333
+Overfull \hbox (15.07631pt too wide) in paragraph at lines 334--334
 [][] 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 333--333
+Underfull \hbox (badness 1320) in paragraph at lines 334--334
 \T1/aer/m/n/29.86 when CO moves
  []
 
 <abb/movie.png, id=47, 256.0767pt x 43.8438pt>
 File: abb/movie.png Graphic file (type png)
  <use abb/movie.png>
-Package pdftex.def Info: abb/movie.png used on input line 333.
+Package pdftex.def Info: abb/movie.png used on input line 334.
 (pdftex.def)             Requested size: 671.2757pt x 114.9371pt.
 
-Overfull \hbox (1.37401pt too wide) in paragraph at lines 333--333
+Overfull \hbox (1.37401pt too wide) in paragraph at lines 334--334
 [][] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 333--333
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 334--334
 [][] 
  []
 
 
-Overfull \hbox (0.81541pt too wide) in paragraph at lines 333--333
+Overfull \hbox (0.81541pt too wide) in paragraph at lines 334--334
 [] |  [] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 356--356
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 357--357
 [][] 
  []
 
 
-Overfull \hbox (4.39998pt too wide) in paragraph at lines 356--356
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 357--357
 [][] 
  []
 
@@ -1268,7 +1268,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  19119 strings out of 493315
  402607 string characters out of 6145893
- 547096 words of memory out of 5000000
+ 546094 words of memory out of 5000000
  22068 multiletter control sequences out of 15000+600000
  65919 words of font info for 132 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1283,7 +1283,7 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
 mf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on STC2016-poster.pdf (1 page, 2360821 bytes).
+Output written on STC2016-poster.pdf (1 page, 2360758 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
