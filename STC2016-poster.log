@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 14:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=pdflatex 2014.12.4)  2 SEP 2016 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,13 +1152,24 @@ Overfull \hbox (4.39998pt too wide) in paragraph at lines 268--268
 [][] 
  []
 
+<abb/fig_8.png, id=43, 149.16528pt x 104.93604pt>
+File: abb/fig_8.png Graphic file (type png)
+ <use abb/fig_8.png>
+Package pdftex.def Info: abb/fig_8.png used on input line 291.
+(pdftex.def)             Requested size: 341.86345pt x 240.51033pt.
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 282--282
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 291--291
 [][] 
  []
 
+<abb/Trajektorie.png, id=44, 362.09505pt x 254.06258pt>
+File: abb/Trajektorie.png Graphic file (type png)
 
-Overfull \hbox (4.4pt too wide) in paragraph at lines 282--282
+<use abb/Trajektorie.png>
+Package pdftex.def Info: abb/Trajektorie.png used on input line 291.
+(pdftex.def)             Requested size: 341.86345pt x 239.86554pt.
+
+Overfull \hbox (4.39998pt too wide) in paragraph at lines 291--291
 [][] 
  []
 
@@ -1168,7 +1179,8 @@ Overfull \hbox (4.4pt too wide) in paragraph at lines 282--282
 /modifiedSurfScheme.png> <./abb/one.png> <./abb/elgas.png> <./abb/fermi.png> <.
 /abb/TTM_1pulse-eps-converted-to.pdf> <./abb/6dimScheme.png> <./abb/fig_1b.pdf>
  <./abb/2TM_equs.png> <./abb/Part1SurfScheme.png> <./abb/Part2SurfScheme.png> <
-./abb/Langevin_eq.png> <./abb/Part3SurfScheme.png>] (./STC2016-poster.aux)
+./abb/Langevin_eq.png> <./abb/Part3SurfScheme.png> <./abb/fig_8.png> <./abb/Tra
+jektorie.png>] (./STC2016-poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 26.72pt have occurred.
@@ -1178,13 +1190,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19090 strings out of 493315
- 402035 string characters out of 6145893
- 539795 words of memory out of 5000000
- 22049 multiletter control sequences out of 15000+600000
- 62773 words of font info for 126 fonts, out of 8000000 for 9000
+ 19106 strings out of 493315
+ 402277 string characters out of 6145893
+ 537795 words of memory out of 5000000
+ 22058 multiletter control sequences out of 15000+600000
+ 65919 words of font info for 132 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 62i,16n,84p,817b,1344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,84p,817b,1367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public
 /amsfonts/cm/cmcsc10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi1
@@ -1195,10 +1207,10 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr1
 mf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publ
 ic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on STC2016-poster.pdf (1 page, 1872900 bytes).
+Output written on STC2016-poster.pdf (1 page, 2063308 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
