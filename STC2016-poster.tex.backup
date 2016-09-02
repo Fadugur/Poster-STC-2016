@@ -4,12 +4,14 @@
 \usepackage{adjustbox}
 \usepackage{textcomp}
 \usepackage{multicol}
+\usepackage{amsmath}
 % \usepackage{amssymb}
 \usetikzlibrary{shapes, arrows.meta}
 \usetheme{Default}
 
-\title{\parbox{.98\textwidth}{\centering Femtosecond-laser induced dynamics of CO on Ru(0001):
-New insights from a hot-electron, electronic friction model including surface motion\vspace{.85cm}}}
+\title{\parbox{.85\textwidth}{ \begin{center}
+Femtosecond-laser induced dynamics of CO on Ru(0001):\end{center}
+\begin{center}\LARGE New insights from a hot-electron, electronic friction model including surface motion                                                                                           \end{center}}}
 \author[1,2]{\underline{Robert Scholz}}
 \author[1]{Gereon Flo\ss{}}
 \author[1]{Peter Saalfrank}
@@ -28,7 +30,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 \makeatletter
 \def\maketitle{\AB@maketitle}
 \makeatother
-\renewcommand{\Authfont}{\LARGE}
+\renewcommand{\Authfont}{\Large}
 \renewcommand{\Affilfont}{\normalsize}
 
 \settitle{ \centering \vbox{
@@ -40,7 +42,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 
 
 \begin{document}
-  \maketitle[width=0.99\textwidth]
+  \maketitle[width=0.9\textwidth]
   \begin{columns}
     \column{0.42}
       \block{Introduction}{
@@ -113,105 +115,105 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  \end{itemize}
 		}
 % 		  \includegraphics[width=.4\colwidth]{abb/TTM_1pulse.eps}
-      }
-      \column{0.58}{
-		\block{Models and Methods}{
-		  \innerblock{Six-dimensional Potential Energy Surface (6D PES)\cite{fuechsel:14}}{
-		    \begin{minipage}[t]{.66\colwidth}
-		      \begin{itemize}
-				\item Basis for dynamics: precomputed PES from DFT (rPBE + D2) 
-		      \end{itemize}
-		      \begin{adjustbox}{valign=t}
-				\begin{minipage}[t]{.19\colwidth}
-% 				  \vspace*{.5\baselineskip}
-				  \includegraphics[width=.22\colwidth]{abb/6dimScheme.png}
-				\end{minipage}
-		      \end{adjustbox}
-		      \begin{minipage}[t]{.46\colwidth}
-				\begin{itemize}
-				  \item all 6 dimensions of the adsorbate
-				  \item analytical PES and gradients $\Rightarrow$ very fast % (once constructed)
-				  \item[$\Rightarrow$] number and length of trajectories can be large 
-				  \item downsides: -- surface atoms frozen $\Rightarrow$ no phonons 
-				  \newline \hspace*{4.5cm} -- had to be constructed first
-				\end{itemize}
-		      \end{minipage}
-		    \end{minipage}
-		    \begin{adjustbox}{valign=t}
-		      \begin{minipage}[t]{.35\colwidth}
-				\hspace*{-.01\colwidth}\includegraphics[width=.28\colwidth]{abb/fig_1b.pdf}
-		      \end{minipage}
-		    \end{adjustbox}  
-		  }
-		  \vspace{.5cm}
-		
-		  \innerblock{Two-Temperature Model (2TM)\cite{anisimov:74}}{
-			\begin{minipage}[t]{.68\colwidth}
-			  \begin{itemize}
-				\item describes interaction of metal with laser, using two differential equations:
-			  \end{itemize}			  
-			  \begin{center}
-				\includegraphics[width=.5\colwidth]{abb/2TM_equs.png}
-			  \end{center}
-			\end{minipage}
-		    \begin{adjustbox}{valign=t}
-			  \begin{minipage}[t]{.25\colwidth}
-				\includegraphics[width=.25\colwidth]{abb/Part1SurfScheme.png}
-% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
-		      \end{minipage}
-			\end{adjustbox}
-% 			\end{adjustbox}
-			\vspace{-1.2\baselineskip}
+	  }
+	\column{0.58}
+	  \block{Models and Methods}{
+		\innerblock{Six-dimensional Potential Energy Surface (6D PES)\cite{fuechsel:14}}{
+		  \begin{minipage}[t]{.66\colwidth}
 			\begin{itemize}
-			  \item[$\Rightarrow$] get $T_\mathrm{el}$ and $T_\mathrm{ph}$ as $f(z,t)$ from laser parameters and material properties: 
-			  {\normalsize
-			  \begin{itemize}
-				\begin{minipage}[t]{.52\colwidth}
-				  \item laser wavelength $\lambda$ (affects penetretion depth into material)
-				  \item (effective) absorbed fluence $F$ (energy/area)
-				  \item pulse duration $\tau$ (all three appear in the ``source term'' $S(z, t)$)
-				\end{minipage}
-				\begin{minipage}[t]{.5\colwidth}
-				  \item electron and phonon heat capacities $C_\mathrm{el}$ and $C_\mathrm{ph}$
-				  \item electron heat conductivity $\kappa$ 			
-				  \item electron-phonon coupling constant $g$
-				\end{minipage}
-			  \end{itemize}				
-			  }
-			\end{itemize}	
-
-		  }
-		  \vspace{.5cm}
-		    
-		  \innerblock{Electronic Friction: Langevin Dynamics\cite{headgordon:95} and Local~Density~Friction~Approximation~(LDFA)\cite{juaristi:08}}{
-		    \begin{adjustbox}{valign=t}
-			  \begin{minipage}[t]{.26\colwidth}
-				\includegraphics[width=.25\colwidth]{abb/Part2SurfScheme.png}
-% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
-		      \end{minipage}
+			  \item Basis for dynamics: precomputed PES from DFT (rPBE + D2) 
+			\end{itemize}
+			\begin{adjustbox}{valign=t}
+			  \begin{minipage}[t]{.19\colwidth}
+% 				  \vspace*{.5\baselineskip}
+				\includegraphics[width=.22\colwidth]{abb/6dimScheme.png}
+			  \end{minipage}
 			\end{adjustbox}
-			\begin{minipage}[t]{.6\colwidth}
+			\begin{minipage}[t]{.46\colwidth}
 			  \begin{itemize}
-				\item Langevin equation of motion, a stochastical differential equation:%\\[-.9\baselineskip]
+				\item all 6 dimensions of the adsorbate
+				\item analytical PES and gradients $\Rightarrow$ very fast % (once constructed)
+				\item[$\Rightarrow$] number and length of trajectories can be large 
+				\item downsides: -- surface atoms frozen $\Rightarrow$ no phonons 
+				\newline \hspace*{4.5cm} -- had to be constructed first
+			  \end{itemize}
+			\end{minipage}
+		  \end{minipage}
+		  \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.35\colwidth}
+			  \hspace*{-.01\colwidth}\includegraphics[width=.28\colwidth]{abb/fig_1b.pdf}
+			\end{minipage}
+		  \end{adjustbox}  
+		}
+		\vspace{.5cm}
+	  
+		\innerblock{Two-Temperature Model (2TM)\cite{anisimov:74}}{
+		  \begin{minipage}[t]{.68\colwidth}
+			\begin{itemize}
+			  \item describes interaction of metal with laser, using two differential equations:
+			\end{itemize}			  
+			\begin{center}
+			  \includegraphics[width=.5\colwidth]{abb/2TM_equs.png}
+			\end{center}
+		  \end{minipage}
+		  \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.25\colwidth}
+			  \includegraphics[width=.25\colwidth]{abb/Part1SurfScheme.png}
+% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
+			\end{minipage}
+		  \end{adjustbox}
+% 			\end{adjustbox}
+		  \vspace{-1.2\baselineskip}
+		  \begin{itemize}
+			\item[$\Rightarrow$] get $T_\mathrm{el}$ and $T_\mathrm{ph}$ as $f(z,t)$ from laser parameters and material properties: 
+			{\normalsize
+			\begin{itemize}
+			  \begin{minipage}[t]{.52\colwidth}
+				\item laser wavelength $\lambda$ (affects penetretion depth into material)
+				\item (effective) absorbed fluence $F$ (energy/area)
+				\item pulse duration $\tau$ (all three appear in the ``source term'' $S(z, t)$)
+			  \end{minipage}
+			  \begin{minipage}[t]{.5\colwidth}
+				\item electron and phonon heat capacities $C_\mathrm{el}$ and $C_\mathrm{ph}$
+				\item electron heat conductivity $\kappa$ 			
+				\item electron-phonon coupling constant $g$
+			  \end{minipage}
+			\end{itemize}				
+			}
+		  \end{itemize}	
+
+		}
+		\vspace{.5cm}
+		  
+		\innerblock{Electronic Friction: Langevin Dynamics\cite{headgordon:95} and Local~Density~Friction~Approximation~(LDFA)\cite{juaristi:08}}{
+		  \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.26\colwidth}
+			  \includegraphics[width=.25\colwidth]{abb/Part2SurfScheme.png}
+% 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
+			\end{minipage}
+		  \end{adjustbox}
+		  \begin{minipage}[t]{.6\colwidth}
+			\begin{itemize}
+			  \item Langevin equation of motion, a stochastical differential equation:%\\[-.9\baselineskip]
 % 				\vspace{.2\baselineskip}
 % 				\item describes interaction of  electron-hole-pairs with molecule
-			  \end{itemize}
-			  \vspace*{-.1\baselineskip}			  
-			  \includegraphics[width=.65\colwidth]{abb/Langevin_eq.png}
-			\end{minipage}
-			\vspace*{-.3\baselineskip}
-			\begin{itemize}
-			  \item describes movement of CO on the PES and interaction with electron-hole pairs (friction and excitation)
-			  \item Local Density Friction Approx. (LDFA): most simple model to calculate friction coefficients $\eta_{\mathrm{el},k}$
-			  \begin{itemize}
-% 			    \item ``Local Density'' $\Rightarrow$ homogenous free electron gas (FEG)
-				\item Atom $k$ embedded in free electron gas with density of bare surface at current position $\underline{r}_k$
-			  \end{itemize}
-				\item Random forces $\underline{R}_{\mathrm{el},k}$: gaussian white noise,  dependent on both $\eta_{\mathrm{el},k}$ (from LDFA) and $T_\mathrm{el}$ (from 2TM)
-				\begin{itemize}
-				  \item justified by the 2. fluctuation dissipation theorem  \cite{kubo:66}, which relates friction and thermal movement 
-				\end{itemize}  
 			\end{itemize}
+			\vspace*{-.1\baselineskip}			  
+			\includegraphics[width=.65\colwidth]{abb/Langevin_eq.png}
+		  \end{minipage}
+		  \vspace*{-.3\baselineskip}
+		  \begin{itemize}
+			\item describes movement of CO on the PES and interaction with electron-hole pairs (friction and excitation)
+			\item Local Density Friction Approx. (LDFA): most simple model to calculate friction coefficients $\eta_{\mathrm{el},k}$
+			\begin{itemize}
+% 			    \item ``Local Density'' $\Rightarrow$ homogenous free electron gas (FEG)
+			  \item Atom $k$ embedded in free electron gas with density of bare surface at current position $\underline{r}_k$
+			\end{itemize}
+			  \item Random forces $\underline{R}_{\mathrm{el},k}$: gaussian white noise,  dependent on both $\eta_{\mathrm{el},k}$ (from LDFA) and $T_\mathrm{el}$ (from 2TM)
+			  \begin{itemize}
+				\item justified by the 2. fluctuation dissipation theorem  \cite{kubo:66}, which relates friction and thermal movement 
+			  \end{itemize}  
+		  \end{itemize}
 
 % 			\begin{adjustbox}{valign=t}
 % 			  \begin{minipage}[t]{.5\colwidth}
@@ -219,29 +221,44 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 % 				\includegraphics[width=.5\colwidth]{abb/Langevin_eq.png}
 % 		      \end{minipage}
 % 			\end{adjustbox}
-		  }
-		  \vspace{.5cm}
-		  
-		  \innerblock{Inclusion of Phonons: Generalized Langevin Oscillator(GLO)-model\cite{adelman:76, tully:80, busnengo:05}}{
-		    \begin{adjustbox}{valign=t}
-			  \begin{minipage}[t]{.24\colwidth}
-				\includegraphics[width=.25\colwidth]{abb/Part3SurfScheme.png}
+		}
+		\vspace{.5cm}
+		
+		\innerblock{Inclusion of Phonons: Generalized Langevin Oscillator(GLO)-model\cite{adelman:76, tully:80, busnengo:05}}{
+		  \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.24\colwidth}
+			  \includegraphics[width=.25\colwidth]{abb/Part3SurfScheme.png}
 % 				\includegraphics[width=.3\colwidth]{abb/2TM_equs.png}
-		      \end{minipage}
-			\end{adjustbox}
-			\begin{minipage}[t]{.7\colwidth}
+			\end{minipage}
+		  \end{adjustbox}
+		  \begin{minipage}[t]{.7\colwidth}
+			\begin{itemize}
+			  \item models influence of phonons in an effective way (augments frozen surface)
+			  \item entire surface understood as 3D oscillator (coordinates $\underline{r}_s$, mass $m_s = m_\mathrm{Ru}$)
+			  \item coupling to molecule via shifting: %of the PES:
+			  $\; V_\mathrm{GLO}(\underline{r}_\mathrm{C},\underline{r}_\mathrm{O};\underline{r}_s)=V(\underline{r}_\mathrm{C}-\underline{r}_s,\underline{r}_\mathrm{O}-\underline{r}_s)$ 
+			  \item additionally coupled to ghost oscillator $\underline{r}_g$ to model influence of the bulk 
 			  \begin{itemize}
-				\item models influence of phonons in an effective way (augments frozen surface)
-				\item entire surface understood as 3D oscillator (coordinates $\underline{r}_s$, mass $m_s = m_\mathrm{Ru}$)
-				\item coupling to the molecule via space-rigid shift of PES V
+				\item ghost oscillator is subject to friction $\eta_\mathrm{ph}$ and random forces $R_\mathrm{ph}(T_\mathrm{ph})$
 			  \end{itemize}
+			\end{itemize}
+% 			  {\Large
+% 			  \begin{equation*}
+% 			    V_\mathrm{GLO}(\underline{r}_\mathrm{C},\underline{r}_\mathrm{O};\underline{r}_s)=V(\underline{r}_\mathrm{C}-\underline{r}_s,\underline{r}_\mathrm{O}-\underline{r}_s) 
+% 			  \end{equation*}
+% 			  }
 % 			  \vspace*{-.1\baselineskip}			  
 % 			  \includegraphics[width=.65\colwidth]{abb/Langevin_eq.png}
-			\end{minipage}
-		  }
+		  \end{minipage}
 		}
-      }
+	  }	
   \end{columns}
+  \block[titleoffsety=6cm,bodyoffsety=6cm,titleoffsetx=-.3\textwidth,titlewidthscale=.45,bodywidthscale=.4,bodyoffsetx=-.28\textwidth]{Results}{
+	~\\[\baselineskip]
+	
+	~\\
+	
+  }
       %   \bibliography{/perm/scholz/phd/lit/biblio}
   \block{}{
     \begin{multicols}{2}
