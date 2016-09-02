@@ -47,25 +47,39 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
     \column{0.42}
       \block{Introduction}{
 		\innerblock{Motivation}{
+		  \begin{minipage}[t]{.6\colwidth}
+			\begin{itemize}
+			  \item research on small molecules \\adsorbed to metals is important for:
+			  \begin{itemize}
+				\item catalytic applications 
+				\item fundamental understanding of bonding
+			  \end{itemize}
+			  \item femtosecond(fs)-lasers $\Rightarrow$ very valuable tool
+			  \begin{itemize}
+				\item allow for investigations on small timescales   
+				\item open up new processes compared to heating/``normal'' lasers $\Rightarrow$ femtochemistry \cite{bonn:99}
+				\item may enable specific control over \\catalytic reactions (photocatalysis) 
+			  \end{itemize}
+			\end{itemize}
+		  \end{minipage}
+		  \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.28\colwidth}
+			  \begin{flushright}
+% 				\includegraphics[width=.18\colwidth]{abb/nanofemto.png}
+				%$\,$\\[.6\baselineskip]
+				\includegraphics[width=.25\colwidth]{abb/CO_CO2.png}
+			  \end{flushright}
+			\end{minipage}
+		  \end{adjustbox}
+		  \vspace*{-1.2\baselineskip}
 		  \begin{itemize}
-			\item research on small molecules adsorbed to metals is important for:
-			\begin{itemize}
-			  \item catalytic applications 
-			  \item fundamental understanding of bonding
-			\end{itemize}
-			\item femtosecond(fs)-lasers are a valuable tool for such research as they
-			\begin{itemize}
-			  \item allow for investigations on small timescales   
-			  \item open up new processes compared to heating (femtochemistry)
-			  \item may enable specific control over catalytic reactions (photocatalysis) 
-			\end{itemize}
 			\item specific motivation for system CO/Ru(0001)
 			\begin{itemize}
 			  \item experimentally well studied regarding fs-laser irradiation, e.g. \cite{funk:00, nilsson:13}
 			  \item fulldimensional \textit{ab-initio} potential recently developed in our group\cite{fuechsel:14}
 			  \item details of this indicate interpretation of experiment \cite{nilsson:13} may be wrong
 			\end{itemize}
-		  \end{itemize}
+		  \end{itemize}		  		    
 		}
 		\vspace{.5cm}
 
@@ -233,7 +247,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  \end{adjustbox}
 		  \begin{minipage}[t]{.7\colwidth}
 			\begin{itemize}
-			  \item models influence of phonons in an effective way (augments frozen surface)
+			  \item influence of phonons modeled in an effective way (augments frozen surface)
 			  \item entire surface understood as 3D oscillator (coordinates $\underline{r}_s$, mass $m_s = m_\mathrm{Ru}$)
 			  \item coupling to molecule via shifting: %of the PES:
 			  $\; V_\mathrm{GLO}(\underline{r}_\mathrm{C},\underline{r}_\mathrm{O};\underline{r}_s)=V(\underline{r}_\mathrm{C}-\underline{r}_s,\underline{r}_\mathrm{O}-\underline{r}_s)$ 
@@ -253,16 +267,24 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		}
 	  }	
   \end{columns}
-  \block[titleoffsety=6cm,bodyoffsety=6cm,titleoffsetx=-.3\textwidth,titlewidthscale=.45,bodywidthscale=.4,bodyoffsetx=-.28\textwidth]{Results}{
+  \begin{columns}
+  \column{.6}
+  \block[titleoffsety=3cm,bodyoffsety=3cm,titleoffsetx=-.12\colwidth,titlewidthscale=.62,]{Results}{
 	~\\[\baselineskip]
 	
 	~\\
 	
   }
+  \end{columns}
       %   \bibliography{/perm/scholz/phd/lit/biblio}
   \block{}{
     \begin{multicols}{2}
       \begin{thebibliography}{X}\normalsize
+		\bibitem{bonn:99}
+		M. Bonn, S. Funk, Ch. Hess, D. N. Denzler, C. Stampfl %,
+		et al., %M. Scheffler, M. Wolf, G. Ertl,  
+		\emph{Science} \textbf{285}, 1042 (1999).
+
 		
 		\bibitem{funk:00}
 % 		S. Funk, M. Bonn, D. N. Denzler, C. Hess et al., 
