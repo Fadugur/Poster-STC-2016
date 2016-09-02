@@ -253,7 +253,7 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 			  $\; V_\mathrm{GLO}(\underline{r}_\mathrm{C},\underline{r}_\mathrm{O};\underline{r}_s)=V(\underline{r}_\mathrm{C}-\underline{r}_s,\underline{r}_\mathrm{O}-\underline{r}_s)$ 
 			  \item additionally coupled to ghost oscillator $\underline{r}_g$ to model influence of the bulk 
 			  \begin{itemize}
-				\item ghost oscillator is subject to friction $\eta_\mathrm{ph}$ and random forces $R_\mathrm{ph}(T_\mathrm{ph})$
+				\item ghost oscillator is subject to friction $\eta_\mathrm{ph}$ and random forces $\underline{R}_\mathrm{ph}(T_\mathrm{ph})$
 			  \end{itemize}
 			\end{itemize}
 % 			  {\Large
@@ -268,23 +268,55 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 	  }	
   \end{columns}
   \begin{columns}
-  \column{.6}
-  \block[titleoffsety=3cm,bodyoffsety=3cm,titleoffsetx=-.12\colwidth,titlewidthscale=.62,]{Results}{
+  \column{.66}
+  \block[titleoffsety=3cm,bodyoffsety=3cm,titleoffsetx=-.182\colwidth,titlewidthscale=.62,]{Results}{
 	\begin{adjustbox}{valign=t}
-	\begin{minipage}[t]{.46\colwidth}
+	\begin{minipage}[t]{.49\colwidth}
 	  \innerblock{Desorption}{
 % 		\begin{itemize}
 % 		  \item 
 % 		\end{itemize}
-		\includegraphics[width=.25\colwidth]{abb/fig_8.png}
+		\begin{adjustbox}{valign=t}
+		  \begin{minipage}[t]{.28\colwidth}
+			\includegraphics[width=.28\colwidth]{abb/fig_8.png}
+		  \end{minipage}
+		\end{adjustbox} 
+		\begin{minipage}[t]{.17\colwidth}
+		  \begin{itemize}
+		    \item 
+		  \end{itemize}
+		\end{minipage}
+
+
+		\includegraphics[width=.26\colwidth]{abb/fig_9.eps}
+		\includegraphics[width=.20\colwidth]{abb/fig_11a.eps}		
 	  }	  
 	\end{minipage}
 	\end{adjustbox}
-	\hspace*{.01\colwidth}
+	\hspace*{.005\colwidth}
 	\begin{adjustbox}{valign=t}
-	  \begin{minipage}[t]{.47\colwidth}
+	  \begin{minipage}[t]{.46\colwidth}
 	  	\innerblock{Diffusion}{
-		  \includegraphics[width=.25\colwidth]{abb/Trajektorie.png}
+		  \begin{adjustbox}{valign=t}
+			\begin{minipage}[t]{.28\colwidth}	  	
+			  \includegraphics[width=.29\colwidth]{abb/Trajektorie.png}
+			\end{minipage}
+		  \end{adjustbox} 
+		  \begin{minipage}[t]{.16\colwidth}
+			\begin{itemize}
+			  \item typical trajectory:
+			   hops between top \\sites and vibration 
+			  \item increase in $\theta$-angle
+					when CO moves away from top
+			  \item overall, very large diffusion
+			\end{itemize}
+		  \end{minipage}		
+		  \begin{itemize}
+		    \item also: dynamical trapping effect at hcp site
+		    \item[$\Rightarrow$] possible alternative explanation to ``precursor state'' \cite{nilsson:13}
+		  \end{itemize}
+
+		  \includegraphics[width=.445\colwidth]{abb/movie.png}
 		}	    
 	  \end{minipage}
 	\end{adjustbox}	  

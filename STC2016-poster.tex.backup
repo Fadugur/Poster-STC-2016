@@ -57,8 +57,8 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 			  \item femtosecond(fs)-lasers $\Rightarrow$ very valuable tool
 			  \begin{itemize}
 				\item allow for investigations on small timescales   
-				\item open up new processes compared to heating/``normal'' lasers $\Rightarrow$ femtochemistry \cite{bonn:99}
-				\item may enable specific control over \\catalytic reactions (photocatalysis) 
+				\item open up new processes compared to heating or ``normal'' lasers $\Rightarrow$ femtochemistry, e.g.\cite{bonn:99}:
+				\item may enable specific control over \\catalytic reactions $\Rightarrow$ photocatalysis 
 			  \end{itemize}
 			\end{itemize}
 		  \end{minipage}
@@ -116,8 +116,8 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
 		  \begin{adjustbox}{valign=t}
 			\begin{minipage}[t]{.28\colwidth}
 			  \begin{flushright}
-				\includegraphics[width=.18\colwidth]{abb/elgas.png}$\,$\\[.6\baselineskip]
-				\includegraphics[width=.205\colwidth]{abb/fermi.png}\\[.3\baselineskip]
+				\includegraphics[width=.18\colwidth]{abb/elgas.png}$\,$\\[.2\baselineskip]
+				\includegraphics[width=.205\colwidth]{abb/fermi.png}
 				\includegraphics[width=.26\colwidth]{abb/TTM_1pulse.eps}
 			  \end{flushright}
 			\end{minipage}
@@ -270,60 +270,75 @@ Universidad del Pa\'{i}s Vasco (UPV/EHU), Apartado 1072, 20080 San Sebasti\'an, 
   \begin{columns}
   \column{.6}
   \block[titleoffsety=3cm,bodyoffsety=3cm,titleoffsetx=-.12\colwidth,titlewidthscale=.62,]{Results}{
-	~\\[\baselineskip]
-	
-	~\\
-	
+	\begin{adjustbox}{valign=t}
+	\begin{minipage}[t]{.46\colwidth}
+	  \innerblock{Desorption}{
+% 		\begin{itemize}
+% 		  \item 
+% 		\end{itemize}
+		\includegraphics[width=.3\colwidth]{abb/fig_8.png}
+	  }	  
+	\end{minipage}
+	\end{adjustbox}
+	\hspace*{.01\colwidth}
+	\begin{adjustbox}{valign=t}
+	  \begin{minipage}[t]{.47\colwidth}
+	  	\innerblock{Diffusion}{
+		  \includegraphics[width=.35\colwidth]{abb/Trajektorie.png}
+		  	\includegraphics[width=.45\colwidth]{abb/movie.png}
+		}	    
+	  \end{minipage}
+	\end{adjustbox}	  
   }
   \end{columns}
       %   \bibliography{/perm/scholz/phd/lit/biblio}
   \block{}{
-    \begin{multicols}{2}
-      \begin{thebibliography}{X}\normalsize
+    \begin{multicols}{3}\footnotesize
+      \begin{thebibliography}{X}\small
 		\bibitem{bonn:99}
-		M. Bonn, S. Funk, Ch. Hess, D. N. Denzler, C. Stampfl %,
-		et al., %M. Scheffler, M. Wolf, G. Ertl,  
+		M. Bonn, S. Funk, Ch. Hess, D.N. Denzler %,
+		et al., %, C. Stampfl, M. Scheffler, M. Wolf, G. Ertl,  
 		\emph{Science} \textbf{285}, 1042 (1999).
 
 		
 		\bibitem{funk:00}
 % 		S. Funk, M. Bonn, D. N. Denzler, C. Hess et al., 
-		S. Funk, M. Bonn, D. N. Denzler, C. Hess, M. Wolf and G. Ertl, 
-		\emph{J. Chem. Phys.} \textbf{112}, 9888 (2000).
+		S. Funk, M. Bonn, D.N. Denzler, C. Hess et al., %M. Wolf and G. Ertl, 
+		\emph{J.Chem.Phys.} \textbf{112}, 9888 (2000).
 		
 		\bibitem{nilsson:13}
-% 		  M. Dell'Angela, T. Anniyev, M. Beye et al., 
-		  M. Dell'Angela, T. Anniyev, M. Beye, R. Coffee, A. F\"ohlisch et al., 
+		  M. Dell'Angela, T. Anniyev, M. Beye, R. Coffee et al., 
+% 		  M. Dell'Angela, T. Anniyev, M. Beye, R. Coffee, A. F\"ohlisch et al., 
 		  \emph{Science} \textbf{339}, 1302 (2013).		  
 		
 		\bibitem{fuechsel:14}
-		  G. Füchsel, J. C. Tremblay, and P. Saalfrank, 
-		  \emph{J. Chem. Phys.} \textbf{141}, 094704 (2014).
+		  G. Füchsel, J.C. Tremblay, and P. Saalfrank, 
+		  \emph{J.Chem.Phys.} \textbf{141}, 094704 (2014).
 		
 		\bibitem{anisimov:74}
-		  S. I. Anisimov, B. L. Kapeliovich, and T. L. Perel'man,
-		  \emph{Sov. Phys.-JETP} \textbf{39}, 375 (1974).
+		  S.I. Anisimov, B.L. Kapeliovich and T.L. Perelman,
+		  \emph{Sov.Phys.-JETP} \textbf{39}, 375 (1974).
 		  
 		\bibitem{headgordon:95}  
-		M. Head-Gordon and J. C. Tully, \emph{J. Chem. Phys.} \textbf{103}, 10137 (1995).
+		M. Head-Gordon and J.C. Tully, \emph{J.Chem.Phys.} \textbf{103}, 10137 (1995).
 		
 		\bibitem{juaristi:08}
-% 		J. I. Juaristi, M. Alducin, R. Díez Muiño, et al., 
-		J. I. Juaristi, M. Alducin, R. Díez Muiño, H. F. Busnengo and A. Salin, 
-		\emph{Phys. Rev. Lett.} \textbf{100}, 116102 (2008).
+		J.I. Juaristi, M. Alducin, R. Díez Muiño, et al., 
+% 		J. I. Juaristi, M. Alducin, R. Díez Muiño, H. F. Busnengo and A. Salin, 
+		\emph{Phys.Rev.Lett.} \textbf{100}, 116102 (2008).
 		
 		\bibitem{adelman:76}
-		S. A. Adelman and J. D. Doll, \emph{J. Chem. Phys.} \textbf{64}, 2375 (1976).
+		S.A. Adelman and J.D. Doll, \emph{J.Chem.Phys.} \textbf{64}, 2375 (1976).
 		
 		\bibitem{tully:80}
-		J. C. Tully, \emph{J. Chem. Phys.} \textbf{73}, 1975 (1980).
+		J.C. Tully, \emph{J.Chem.Phys.} \textbf{73}, 1975 (1980).
 		
 		\bibitem{busnengo:05}
-		H. F. Busnengo, M. A. Di Césare, W. Dong, and A. Salin,
-		\emph{Phys. Rev. B} \textbf{72}, 125411 (2005).
+		H.F. Busnengo, M.A. Di Césare, W. Dong et al.,
+		\emph{Phys.Rev.B} \textbf{72}, 125411 (2005).
 		
 		\bibitem{kubo:66}
-		R. Kubo, \emph{Rep. Prog. Phys.} \textbf{29}, 255 (1966).
+		R. Kubo, \emph{Rep.Prog.Phys.} \textbf{29}, 255 (1966).
 		
       \end{thebibliography}  
     \end{multicols}
