@@ -1,4 +1,4 @@
-\documentclass[25pt, portrait, a2paper]{tikzposter}
+\documentclass[25pt, portrait, a1paper]{tikzposter}
 \usepackage{authblk}
 \usepackage{tikz}
 \usepackage{adjustbox}
