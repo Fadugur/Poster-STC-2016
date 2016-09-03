@@ -23,7 +23,7 @@
 	}
 	\vfill
   }
-  \block[blockwidthscale=0.1]{}{}
+  \block[bodywidthscale=0.1]{}{}
   \note[width = 15cm]{\textbf{Contact information:}\\
 	Robert Scholz\\
 	Haus 25, Raum D2.04/05\\
