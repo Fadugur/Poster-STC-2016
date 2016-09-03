@@ -1,4 +1,4 @@
-\documentclass[25pt, portrait, a2paper]{tikzposter}
+\documentclass[25pt, portrait, a1paper]{tikzposter}
 \usepackage{tikz}
 \usepackage{adjustbox}
 \usepackage{textcomp}
@@ -13,20 +13,24 @@
 %   \begin{columns}
 %     \column{0.5}
   \block[titleoffsety=.49\textheight, bodyoffsety=.49\textheight, bodywidthscale=1.04, titlewidthscale=1.04]{More details on the GLO model}{
+	\begin{center}
 % 	  \includegraphics[width = .8\textwidth]{abb/GLO_eq1.png}
-	  \includegraphics[width = \textwidth]{abb/GLO.png}
-	  
+	  \includegraphics[width = .75\textwidth]{abb/GLO.png}
+	  \begin{itemize}\huge
+	  	\item Equations of motion for surface oscillator $\underline{r}_s$ and ghost oscillator $\underline{r}_g$: 
+	  \end{itemize}
+	  \includegraphics[width = .7\textwidth]{abb/GLO_eqs.png}
+  \end{center}
   }
-  \block[bodywidthscale=0.1]{}{}
-  \note[width = 15cm]{\textbf{Contact information:}\\
-	Robert Scholz\\
-	Haus 25, Raum D2.04/05\\
-	Institut f\"ur Chemie\\
-	Universit\"at Potsdam\\
-	Karl-Liebknecht-Str. 24-25\\
+%   \block[bodywidthscale=0.1]{}{}
+  \block{Contact information:}{
+	Robert Scholz: 
+	Haus 25, Raum D2.04/05, 
+	Institut f\"ur Chemie, 
+	Universit\"at Potsdam, 
+	Karl-Liebknecht-Str. 24-25, 
 	D-14476 Potsdam\\
-
-  
+	\textbf{Tel.: 0331-977-5368}\\	
 	\textbf{Email: robscholz87@hotmail.com}
   }
 %     \column{0.5}    
