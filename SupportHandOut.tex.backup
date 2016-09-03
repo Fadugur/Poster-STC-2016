@@ -1,4 +1,4 @@
-\documentclass[25pt, portrait]{tikzposter}
+\documentclass[25pt, portrait, a2paper]{tikzposter}
 \usepackage{authblk}
 \usepackage{tikz}
 \usepackage{adjustbox}
@@ -13,13 +13,14 @@
 
 %   \begin{columns}
 %     \column{0.5}
-  \block{\Huge More details on models and methods}{
-	\innerblock{\Huge Construction of the PES}{
-	  
+  \block[titleoffsety=.4\textheight, bodyoffsety=.4\textheight]{More details on models and methods}{
+	\innerblock{Construction of the PES}{
+	  Some Text
 	}
 	\vspace{\baselineskip}
 	\innerblock{Details of the GLO}{
-	
+	  \includegraphics[width = .8\textwidth]{abb/GLO_eq1.png}
+	  \includegraphics[width = .5\textwidth]{abb/GLO.png}
 	}
   }
 %     \column{0.5}    
